@@ -8,7 +8,7 @@ export default function WeeklyThreeHourForcast({dataForcast}) {
     var dataWF = dataForcast.list;
   return (
     <div>
-      <h1>WEEKLY THREE HOUR FORCAST</h1>
+      <h1>WEEKLY THREE HOUR FORECAST</h1>
       <div className={styles.threeHourWeather}>
      <div className={styles.threeHourWeatherWrapper}>
         {dataWF.length > 0 && dataWF.map((item) => (

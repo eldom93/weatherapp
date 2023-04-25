@@ -94,7 +94,7 @@ export default function USCity({dataForcast, data,city,threeHourWeather,currentW
   return (
     <div className={styles.searchBarContainer}>
       <Head>
-        <title>Weather Forcast for {city.zip_code} </title>
+        <title>Weather Forecast for {city.zip_code} </title>
       </Head>
      <div className={styles.todaysWeatherWrapper}>
       <div className={styles.todaysWeatherContainer}>

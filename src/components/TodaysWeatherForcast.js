@@ -11,7 +11,7 @@ export default function TodaysWeatherForcast({city, weather, timezone, currentWe
   return (
     <main className={`${styles.main} ${inter.className}`}>
     <div className={styles.todaysForcastContainer}>
-        <h1 className={styles.todaysForcastTitle}>Todays Weather Forcast for</h1>
+        <h1 className={styles.todaysForcastTitle}>Todays Weather Forecast for</h1>
         <div className={styles.todaysForcastCard}>
             <div className={styles.todaysForcastCol}>
                 <h2 className={styles.todaysForcastLocation}> <span>{city.city}, </span><span> {city.state}, </span> <span>{city.zip_code} </span><span> ({city.county} County)</span></h2>
